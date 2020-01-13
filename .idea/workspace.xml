@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb2dab96-c287-4b16-a191-ff20b93ba6cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cms/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/bin/cake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/bin/cake.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/bin/cake.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/cms.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/.env.default" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/app.default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/bootstrap_cli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/paths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/requirements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/schema/i18n.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/config/schema/sessions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/plugins/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Console/Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/AppController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/ErrorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/MatchsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/PagesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/RolesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/SportsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/TeamsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/TournamentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Controller/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Behavior/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Matchs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Roles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Sports.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Teams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Tournaments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/MatchsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/RolesTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/SportsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/TeamsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/TournamentsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/UsersTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Shell/ConsoleShell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Cell/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Element/Flash/default.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Element/Flash/error.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Element/Flash/success.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Email/html/default.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Email/text/default.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Error/error400.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Error/error500.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/Email/html/default.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/Email/text/default.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/ajax.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/default.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/error.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/rss/default.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Pages/home.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Sports/sportscreatesport.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Sports/sportsvoirsport.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/accueil.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/affichage_admin.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/affichage_user.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/index.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/View/AjaxView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/View/AppView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/View/Cell/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/View/Helper/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests/Fixture/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/ApplicationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/Controller/Component/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/Controller/PagesControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/Model/Behavior/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/View/Helper/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake.icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake.logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake.power.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/webroot/js/empty" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/cms/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/cms/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/cms/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/cms/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/cms/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/cms/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/cms/vendor/jasny/twig-extensions" />
+      <path value="$PROJECT_DIR$/cms/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/cms/vendor/robmorgan/phinx" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/cms/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/cms/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/cms/vendor/josegonzalez/dotenv" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/cms/vendor/aura/intl" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/cms/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/cms/vendor/umpirsky/twig-php-function" />
+      <path value="$PROJECT_DIR$/cms/vendor/cakephp/debug_kit" />
+      <path value="$PROJECT_DIR$/cms/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/cms/vendor/cakephp/chronos" />
+      <path value="$PROJECT_DIR$/cms/vendor/cakephp/bake" />
+      <path value="$PROJECT_DIR$/cms/vendor/cakephp/migrations" />
+      <path value="$PROJECT_DIR$/cms/vendor/ajgl/breakpoint-twig-extension" />
+      <path value="$PROJECT_DIR$/cms/vendor/cakephp/plugin-installer" />
+      <path value="$PROJECT_DIR$/cms/vendor/cakephp/cakephp" />
+      <path value="$PROJECT_DIR$/cms/vendor/cakephp/cakephp-codesniffer" />
+      <path value="$PROJECT_DIR$/cms/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/cms/vendor/asm89/twig-cache-extension" />
+      <path value="$PROJECT_DIR$/cms/vendor/m1/env" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/cms/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/cms/vendor/composer" />
+      <path value="$PROJECT_DIR$/cms/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/cms/vendor/aptoma/twig-markdown" />
+      <path value="$PROJECT_DIR$/cms/vendor/wyrihaximus/twig-view" />
+      <path value="$PROJECT_DIR$/cms/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/cms/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/cms/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/cms/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/cms/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/cms/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/finder" />
+    </include_path>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Gestion-de-tournoi.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="Sports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb2dab96-c287-4b16-a191-ff20b93ba6cd" name="Default Changelist" comment="" />
+      <created>1578928129095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578928129095</updated>
+      <workItem from="1578928131170" duration="357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="357000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
