@@ -4,7 +4,7 @@
 namespace App\Controller;
 
 
-class MatchsController
+class MatchsController extends AppController
 {
 
 }

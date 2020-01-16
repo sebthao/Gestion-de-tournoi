@@ -2,107 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb2dab96-c287-4b16-a191-ff20b93ba6cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cms/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/bin/cake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/bin/cake.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/bin/cake.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/cms.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/.env.default" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/app.default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/bootstrap_cli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/paths.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/requirements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/schema/i18n.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/config/schema/sessions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/plugins/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Application.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Console/Installer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/AppController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/ErrorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/MatchsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/PagesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/RolesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/SportsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/TeamsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/TournamentsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Controller/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Behavior/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Matchs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Roles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Sports.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Teams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Tournaments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/Users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/MatchsTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/RolesTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/SportsTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/TeamsTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/TournamentsTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/UsersTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Shell/ConsoleShell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Cell/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Element/Flash/default.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Element/Flash/error.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Element/Flash/success.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Email/html/default.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Email/text/default.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Error/error400.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Error/error500.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/Email/html/default.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/Email/text/default.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/ajax.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/default.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/error.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Layout/rss/default.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Pages/home.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Sports/sportscreatesport.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Sports/sportsvoirsport.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/accueil.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/affichage_admin.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/affichage_user.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/index.ctp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/View/AjaxView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/View/AppView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/View/Cell/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/View/Helper/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests/Fixture/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/ApplicationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/Controller/Component/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/Controller/PagesControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/Model/Behavior/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests/TestCase/View/Helper/empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/font/cakedingbats-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake.icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake.logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/img/cake.power.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/webroot/js/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Sports/createsport.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Sports/sportsverification.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Sports/watchsports.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Teams/watchteams.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/admin_sight.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/createuser.ctp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Template/Users/watchusers.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Controller/MatchsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Controller/MatchsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Controller/RolesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Controller/RolesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Controller/SportsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Controller/SportsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Controller/TeamsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Controller/TeamsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Controller/TournamentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Controller/TournamentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Controller/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Template/Sports/sportscreatesport.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Template/Sports/sportsvoirsport.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Template/Users/accueil.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Template/Users/home.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Template/Users/affichage_admin.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Template/Users/affichage_user.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Template/Users/index.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Template/Users/index.ctp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,14 +29,138 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/cms/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Controller/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Template/Sports/createsport.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Controller/TeamsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/src/Controller/SportsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Template/Sports/sportsverification.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Template/Sports/watchsports.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/admin_sight.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/home.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$etu</find>
+      <find>idNewEtu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$newSport</replace>
+      <replace>isNewSport</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cms/src/Template/Sports/sportscreatesport.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Controller/TournamentsController.php" />
+        <option value="$PROJECT_DIR$/cms/src/Controller/MatchsController.php" />
+        <option value="$PROJECT_DIR$/cms/src/Controller/RolesController.php" />
+        <option value="$PROJECT_DIR$/cms/src/Template/Teams/createteam.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Template/Sports/voirsport.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Template/Users/affichage_admin.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Template/Users/affichage_user.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Template/Users/index.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Controller/TeamsController.php" />
+        <option value="$PROJECT_DIR$/cms/src/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/cms/src/Template/Sports/createsport.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Template/Sports/sportsverification.ctp" />
+        <option value="$PROJECT_DIR$/cms/src/Controller/SportsController.php" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -197,16 +240,6 @@
       <path value="$PROJECT_DIR$/cms/vendor/symfony/finder" />
     </include_path>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Gestion-de-tournoi.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
@@ -217,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,6 +281,29 @@
               <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,21 +320,29 @@
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="Teams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
               <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,24 +366,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578928129095</updated>
-      <workItem from="1578928131170" duration="357000" />
+      <workItem from="1578928131170" duration="4279000" />
+      <workItem from="1578988109786" duration="7908000" />
+      <workItem from="1579160335788" duration="10671000" />
+      <workItem from="1579181114387" duration="970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357000" />
+    <option name="totallyTimeSpent" value="23828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30743983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989059" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010941" side_tool="true" visible="true" weight="0.32932165" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2606264" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -326,13 +411,148 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/MatchsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/ErrorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/RolesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Teams/createteam.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Teams/watchteams.ctp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/watchusers.ctp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/createuser.ctp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/TournamentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Sports/createsport.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/TeamsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Sports/sportsverification.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Sports/watchsports.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/admin_sight.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/home.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/SportsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -3,8 +3,7 @@
 
 namespace App\Controller;
 
-
-class RolesController
+class RolesController extends AppController
 {
 
 }

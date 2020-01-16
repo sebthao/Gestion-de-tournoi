@@ -12,9 +12,7 @@ session_start();
 <body>
 <img src="http://ehn.ens-lyon.fr/images/logo-lyon1.png">
 
-<h1>Bonjour  <?= $loginUser;?></h1>
-
-
+<h1>Bonjour <?= $loginUser; ?></h1>
 
 
 </body>

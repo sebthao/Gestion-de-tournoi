@@ -14,68 +14,73 @@ class UsersController extends AppController
         //$this->redirect(['controller' => 'users', 'action' => 'accueil']);
     }
 
-    public function usersvoirsports()
+    public function usersWatchSports()
     {
-        $this->redirect(['controller' => 'sports', 'action' => 'sportsvoirsports']);
+        $this->redirect(['controller' => 'sports', 'action' => 'watchsports']);
     }
 
-    public function userscreatesport()
+    public function usersCreateSport()
     {
-        $this->redirect(['controller' => 'sports', 'action' => 'sportscreatesport']);
+        $this->redirect(['controller' => 'sports', 'action' => 'createsport']);
     }
 
-    public function usersvoirteams()
+    public function usersWatchTeams()
     {
-        $this->redirect(['controller' => 'teams', 'action' => 'teamsvoirteam']);
+        $this->redirect(['controller' => 'teams', 'action' => 'watchteam']);
     }
 
-    public function userscreateteams()
+    public function usersCreateTeam()
     {
-        $this->redirect(['controller' => 'teams', 'action' => 'teamscreateteam']);
+        $this->redirect(['controller' => 'teams', 'action' => 'createteam']);
     }
 
-    public function usersvoirusers()
-    {
-
-    }
-
-    public function userscreateusers()
+    public function usersWatchUsers()
     {
 
     }
 
-
-
-    public function accueil()
+    public function usersCreateUsers()
     {
-        $loginUser=$this->request->getData("loginUser");
+
+    }
+
+
+    public function home()
+    {
+        $loginUser = $this->request->getData("loginUser");
         $this->set(compact('loginUser'));
 
     }
 
-    public function affichageAdmin()
+    public function adminSight()
     {
 
-        $teams=$this->Users->Teams->find() ->toArray();
-        $sports=$this->Users->Teams->Sports->find()->toArray();
-        $loginUser=$this->request->getData("loginUser");
+        $teams = $this->Users->Teams
+            ->find()
+            ->toArray();
 
-        if(!is_null($teams) && !is_null($loginUser) && !is_null($sports)){
-            $this->set(compact('loginUser','teams','sports'));
+        $sports = $this->Users->Teams->Sports
+            ->find()
+            ->toArray();
+
+        $loginUser = $this->request->getData("loginUser");
+
+        if (!is_null($teams) && !is_null($loginUser) && !is_null($sports)) {
+            $this->set(compact('loginUser', 'teams', 'sports'));
         }
-
 
 
     }
 
-    public function affichageUser()
+    public function userSight()
     {
-        $loginUser=$this->request->getData("loginUser");
-        $tournois=$this->Users->Teams->Tournaments
+        $loginUser = $this->request
+            ->getData("loginUser");
+        $tournois = $this->Users->Teams->Tournaments
             ->find()
             ->toArray();
-        foreach ($tournois as $tournoi){
-            echo $tournoi['id']."<br>";
+        foreach ($tournois as $tournoi) {
+            echo $tournoi['id'] . "<br>";
         }
 
         $this->set(compact('loginUser'));
@@ -83,31 +88,36 @@ class UsersController extends AppController
 
     public function verification()
     {
-        $loginUser=$this->request->getData("loginUser");
-        $passwordUser=$this->request->getData("password");
+        $loginUser = $this->request
+            ->getData("loginUser");
+
+        $passwordUser = $this->request
+            ->getData("password");
+
         $listUsers = $this->Users
             ->find()
-            ->where(['name'=>$loginUser])
-            ->where(['password'=>$passwordUser])
+            ->where(['name' => $loginUser])
+            ->where(['password' => $passwordUser])
             ->toArray();
-        $loginUser=$this->request->getData("loginUser");
-        if(empty($listUsers)){
+
+        $loginUser = $this->request
+            ->getData("loginUser");
+
+        if (empty($listUsers)) {
             echo "Veuillez entrer une population dans la base";
-            $this->setAction('acceuil');
-        }else{
+            $this->setAction('home');
+        } else {
 
-            if($loginUser==="admin"&& $passwordUser==="admin"){
+            if ($loginUser === "admin" && $passwordUser === "admin") {
 
-                $this->setAction('affichageAdmin');
-            }
-            else {
-                $this->setAction('affichageUser');
+                $this->setAction('adminSight');
+            } else {
+                $this->setAction('userSight');
             }
         }
 
 
     }
-
 
 
 }

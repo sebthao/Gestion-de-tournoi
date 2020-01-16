@@ -4,7 +4,7 @@
 namespace App\Controller;
 
 
-class TournamentsController
+class TournamentsController extends AppController
 {
 
 }
