@@ -11,35 +11,54 @@ class UsersController extends AppController
 
     public function index()
     {
-        //$this->redirect(['controller' => 'users', 'action' => 'accueil']);
     }
 
-    public function usersWatchSports()
+    public function watchSports()
     {
         $this->redirect(['controller' => 'sports', 'action' => 'watchsports']);
     }
 
-    public function usersCreateSport()
+    public function createSport()
     {
         $this->redirect(['controller' => 'sports', 'action' => 'createsport']);
     }
 
-    public function usersWatchTeams()
+    public function watchTeams()
     {
-        $this->redirect(['controller' => 'teams', 'action' => 'watchteam']);
+        $this->redirect(['controller' => 'teams', 'action' => 'watchteams']);
     }
 
-    public function usersCreateTeam()
+    public function createTeam()
     {
         $this->redirect(['controller' => 'teams', 'action' => 'createteam']);
     }
 
-    public function usersWatchUsers()
+    public function watchUsers()
     {
+        $allUsers=$this->Users
+            ->find()
+            ->toArray();
+
+        $this->set('allUsers',$allUsers);
 
     }
 
-    public function usersCreateUsers()
+    public function suppressUser($idUserToDelete){
+        $allUsers=$this->Users
+            ->find()
+            ->toArray();
+
+        foreach ($allUsers as $user){
+            if($idUserToDelete==$user->id){
+                $this->Users->delete($this->Users->get($user->id));
+                $this->Flash->success('l\'utilisateur '. $user->name.' a bien été supprimé');
+            }
+        }
+        $this->setAction('adminSight');
+
+    }
+
+    public function createUser()
     {
 
     }
@@ -47,9 +66,6 @@ class UsersController extends AppController
 
     public function home()
     {
-        $loginUser = $this->request->getData("loginUser");
-        $this->set(compact('loginUser'));
-
     }
 
     public function adminSight()
