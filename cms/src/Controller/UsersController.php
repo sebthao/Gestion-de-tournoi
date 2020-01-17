@@ -1,6 +1,7 @@
 <?php
 
 
+
 namespace App\Controller;
 
 use Cake\Controller\Controller;
@@ -36,14 +37,13 @@ class UsersController extends AppController
 
     public function usersWatchUsers()
     {
-
+        $this->redirect(['controller' => 'users', 'action' => 'watchusers']);
     }
 
     public function usersCreateUsers()
     {
-
+        $this->redirect(['controller' => 'users', 'action' => 'createuser']);
     }
-
 
     public function home()
     {
@@ -63,7 +63,8 @@ class UsersController extends AppController
             ->find()
             ->toArray();
 
-        $loginUser = $this->request->getData("loginUser");
+        $loginUser = $this->request
+            ->getData("loginUser");
 
         if (!is_null($teams) && !is_null($loginUser) && !is_null($sports)) {
             $this->set(compact('loginUser', 'teams', 'sports'));
@@ -78,12 +79,14 @@ class UsersController extends AppController
             ->getData("loginUser");
         $tournois = $this->Users->Teams->Tournaments
             ->find()
+            ->where()
             ->toArray();
+
         foreach ($tournois as $tournoi) {
-            echo $tournoi['id'] . "<br>";
+            echo $tournoi['tournamentname'] . "<br>";
         }
 
-        $this->set(compact('loginUser'));
+        $this->set(compact('loginUser', 'tournois'));
     }
 
     public function verification()
