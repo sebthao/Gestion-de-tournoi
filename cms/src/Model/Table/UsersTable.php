@@ -9,8 +9,8 @@ class UsersTable extends Table
 {
     public function initialize(array $config){
         parent::initialize($config);
-        $this->belongsTo('Teams');
-        $this->hasOne('Roles');
+        $this->belongsToMany('Roles', ['through'=>'RolesUsers']);
+        $this->belongsToMany('Teams', ['through'=>'TeamsUsers']);
     }
 
 

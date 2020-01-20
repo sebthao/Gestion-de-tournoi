@@ -9,9 +9,9 @@ class TeamsTable extends Table
 {
     public function initialize(array $config){
         parent::initialize($config);
-        $this->hasMany('Users');
-        $this->belongsToMany('Matchs');
-        $this->belongsToMany('Tournaments');
-        $this->belongsTo('Sports');
+        $this->belongsToMany('Users', ['through'=>'TeamsUsers']);
+        $this->belongsToMany('Tournaments', ['through'=>'TeamsTournaments']);
+        $this->belongsToMany('Matchs', ['through'=>'MatchsTeams']);
+        $this->belongsToMany('Sports', ['through'=>'SportsTeams']);
     }
 }

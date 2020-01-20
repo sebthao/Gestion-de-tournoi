@@ -4,10 +4,12 @@ namespace App\Model\Table;
 
 use Cake\ORM\Table;
 
-class RolesTable extends Table
+class SportsTeamsTable extends Table
 {
     public function initialize(array $config){
         parent::initialize($config);
-        $this->belongsToMany('Users', ['through'=>'RolesUsers']);
+        $this->belongsTo('Sports');
+        $this->belongsTo('Teams');
     }
 }
+?>

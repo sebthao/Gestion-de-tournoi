@@ -79,8 +79,11 @@ class UsersController extends AppController
             ->getData("loginUser");
         $tournois = $this->Users->Teams->Tournaments
             ->find()
-            ->where()
-            ->toArray();
+            ->innerJoinWith(
+                ''
+            );
+
+
 
         foreach ($tournois as $tournoi) {
             echo $tournoi['tournamentname'] . "<br>";

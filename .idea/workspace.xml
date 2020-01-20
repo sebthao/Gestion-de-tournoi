@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb2dab96-c287-4b16-a191-ff20b93ba6cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/MatchsTeams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/MatchsTournaments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/RolesUsers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/SportsTeams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/TeamsTournaments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Entity/TeamsUsers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/MatchsTeamsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/MatchsTournamentsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/RolesUsersTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/SportsTeamsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/TeamsTournamentsTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/Model/Table/TeamsUsersTable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/src/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Controller/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/Template/Users/createuser.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Template/Users/createuser.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Model/Table/MatchsTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Model/Table/MatchsTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Model/Table/RolesTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Model/Table/RolesTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Model/Table/SportsTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Model/Table/SportsTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/Model/Table/TeamsTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/Model/Table/TeamsTable.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,30 +34,57 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/src/Controller/UsersController.php">
+        <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/MatchsTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/admin_sight.ctp">
+        <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/RolesTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="170">
+              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/SportsTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp">
+        <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/TeamsTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/TournamentsTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/UsersTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -82,6 +123,23 @@
         <option value="$PROJECT_DIR$/cms/src/Template/Users/createuser.ctp" />
         <option value="$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp" />
         <option value="$PROJECT_DIR$/cms/src/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Entity/MatchsTeams.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Entity/MatchsTournaments.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Entity/RolesUsers.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Entity/SportsTeams.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Entity/TeamsTournaments.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Entity/TeamsUsers.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/TeamsUsersTeam.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/MatchsTeamsTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/MatchsTournamentsTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/RolesUsersTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/SportsTeamsTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/TeamsTournamentsTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/TeamsUsersTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/MatchsTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/RolesTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/SportsTable.php" />
+        <option value="$PROJECT_DIR$/cms/src/Model/Table/TeamsTable.php" />
       </list>
     </option>
   </component>
@@ -163,9 +221,9 @@
       <path value="$PROJECT_DIR$/cms/vendor/symfony/finder" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="844" />
-    <option name="width" value="1083" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -173,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,31 +261,23 @@
               <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="462c0819:PsiDirectoryNode" />
-              <item name="Sports" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="462c0819:PsiDirectoryNode" />
-              <item name="Teams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestion-de-tournoi" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gestion-de-tournoi" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +290,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,18 +327,20 @@
       <workItem from="1578988109786" duration="7908000" />
       <workItem from="1579160335788" duration="10671000" />
       <workItem from="1579181114387" duration="970000" />
-      <workItem from="1579246674622" duration="10650000" />
+      <workItem from="1579246674622" duration="11584000" />
+      <workItem from="1579506067615" duration="6339000" />
+      <workItem from="1579525890346" duration="6737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35249000" />
+    <option name="totallyTimeSpent" value="49259000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="844" y="0" width="1083" height="1047" extended-state="1" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25610948" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26586434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,33 +354,12 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010941" side_tool="true" visible="true" weight="0.2286652" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010941" side_tool="true" weight="0.2286652" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2606264" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -366,13 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/Controller/TournamentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -445,10 +469,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/Matchs.php">
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/Users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/TournamentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/admin_sight.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/RolesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/SportsTeams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/TeamsTournaments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/TeamsUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/MatchsTeams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/MatchsTournaments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/Matchs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -466,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/Tournaments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/Teams.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -480,10 +574,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/Users.php">
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Entity/Tournaments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/MatchsTeamsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/MatchsTournamentsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/RolesUsersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/SportsTeamsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/TeamsTournamentsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/TeamsUsersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -494,24 +630,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/admin_sight.ctp">
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/UsersTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/Controller/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/MatchsTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/Template/Users/user_sight.ctp">
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/RolesTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/SportsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/Model/Table/TeamsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>

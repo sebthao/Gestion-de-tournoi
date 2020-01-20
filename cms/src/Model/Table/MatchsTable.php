@@ -8,9 +8,8 @@ class MatchsTable extends Table
 {
     public function initialize(array $config){
         parent::initialize($config);
-        $this->hasMany('Teams');
-        $this->belongsTo('Tournaments');
-        $this->belongsTo('Sports');
+        $this->belongsToMany('Teams', ['through'=>'MatchsTeams']);
+        $this->belongsToMany('Tournaments', ['through'=>'MatchsTournaments']);
     }
 }
 ?>
