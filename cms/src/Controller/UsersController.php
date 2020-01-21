@@ -77,17 +77,20 @@ class UsersController extends AppController
     {
         $loginUser = $this->request
             ->getData("loginUser");
+//        $tournois = $this->Users->Teams->Tournaments
+//            ->find()
+//            ->innerJoinWith(
+//                ''
+//            );
         $tournois = $this->Users->Teams->Tournaments
-            ->find()
-            ->innerJoinWith(
-                ''
-            );
+            ->find('all')
+            ->where('users.login' => )
+            ->toArray();
+        echo '<pre>'.$tournois.'</pre>';
 
-
-
-        foreach ($tournois as $tournoi) {
+        /*foreach ($tournois as $tournoi) {
             echo $tournoi['tournamentname'] . "<br>";
-        }
+        }*/
 
         $this->set(compact('loginUser', 'tournois'));
     }
@@ -102,7 +105,7 @@ class UsersController extends AppController
 
         $listUsers = $this->Users
             ->find()
-            ->where(['name' => $loginUser])
+            ->where(['login' => $loginUser])
             ->where(['password' => $passwordUser])
             ->toArray();
 

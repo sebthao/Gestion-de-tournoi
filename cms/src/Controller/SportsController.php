@@ -57,8 +57,8 @@ class SportsController extends AppController
     public function sportsVerification()
     {
         $dataFromNewSport=$this->request;
-        $label=$dataFromNewSport->getData('label');
-        $nbSet=$dataFromNewSport->getData('nbset');
+        $label=$dataFromNewSport->getData('sportsname');
+        $nbSet=$dataFromNewSport->getData('nbSet');
         $ptsMax=$dataFromNewSport->getData('ptsMax');
         $nbEquipe=$dataFromNewSport->getData('nbEquipe');
         var_dump($dataFromNewSport->getData());echo "<br>";

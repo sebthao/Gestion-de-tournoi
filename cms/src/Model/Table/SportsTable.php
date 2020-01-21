@@ -10,6 +10,10 @@ class SportsTable extends Table
     public function initialize(array $config)
     {
         parent::initialize($config);
-        $this->belongsToMany('Teams', ['through'=>'SportsTeams']);
+        $this->belongsToMany('Teams', [
+            'through'=>'SportsTeams',
+            'foreignKey' => 'sport_id',
+            'targetForeignKey' => 'team_id'
+        ]);
     }
 }
